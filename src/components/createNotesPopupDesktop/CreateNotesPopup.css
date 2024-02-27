@@ -33,10 +33,13 @@
   gap: 2vw;
   align-items: center;
   margin: 1vh 1vh 1vh 1vh;
+  & span{
+    font-size: 18px;
+  }
 }
 
 .popup__input > input {
-  width: 17vw;
+  width: 13vw;
   height: 3vh;
   border: 2px solid grey;
   border-radius: 6vh;

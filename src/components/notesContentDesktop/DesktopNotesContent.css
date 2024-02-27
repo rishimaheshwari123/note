@@ -1,22 +1,26 @@
-.desktop__notes__content__note{
+.container{
     display: flex;
-    justify-content: space-between;
-    gap: 1vw;
-    align-items: center;
-    min-height: 15vh;
-    height: auto;
-    width: 76vw;
-    background-color: #F7ECDC;
+    justify-content: center;
+}
+.desktop__notes__content__note{
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   width: 70vw;
+   border-radius: 5px;
+   padding: 10px;
 }
 
 .desktop__notes__content__date__time__details{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 15vh;
-    width: 15vw;
-    background-color: #F7ECDC;
+    justify-content: space-between;
+   
+   & .time{
+        display: flex;
+        align-items: center;
+    }
 }
 
 .desktop__notes__content__date{
@@ -36,5 +40,4 @@
     height: auto;
     width: 50vw;
     text-align: left;
-    margin: 5vh 2vh 0 0;
 }
