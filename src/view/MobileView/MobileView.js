@@ -41,7 +41,6 @@ function MobileView() {
       <div className="mobile__sidebar__create__notes__btn">
         <button onClick={handleClick}>
           <span id="add">+</span>
-          <span>Create Notes Group</span>
         </button>
       </div>
       <div className="mobile__sidebar__notes__title">
@@ -65,6 +64,11 @@ function MobileView() {
           />
         </div>
       )}
+      <div className="mobile__sidebar__create__notes__btn">
+        <button onClick={handleClick}>
+          <span id="add">+</span>
+        </button>
+      </div>
     </div>
   );
 }

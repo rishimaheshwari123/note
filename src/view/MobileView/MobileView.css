@@ -16,28 +16,19 @@
 }
 
 .mobile__sidebar__create__notes__btn {
-  height: 8vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
-  top: 12vh;
-  background-color: white;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(112%);
 }
 
 .mobile__sidebar__create__notes__btn > button {
-  height: 8vh;
-  width: 80vw;
-  font-size: 3vh;
-  border: none;
-  border-radius: 5vh;
-  background-color: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   color: white;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  align-items: center;
+  background-color: rgb(39 39 162);
+  border: none;
 }
 
 .mobile__sidebar__notes__title {
